@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Redressed&display=swap');
+body
+{
+    font-family: Manrope, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+    color: black;
+}
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover
+{
+    color: black;
+}
+.container
+{
+    position: relative;
+    top: 30px;
+    justify-content: center;
+}
