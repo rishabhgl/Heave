@@ -17,3 +17,9 @@ article {
  article div {
      text-align: center;
  }
+
+ article div p a {
+    text-decoration: none;
+    color: #ded3d3;
+    font-style: italic;
+ }
