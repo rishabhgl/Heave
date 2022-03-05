@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+}
+.mg1
+{
+    display: block;
+    margin:auto;
+    width: 20%;
+    height: 150px;
+}
+.mg2
+{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+.p1
+{
+    border: 2px solid burlywood;
+}
+.container
+{
+    display: block;
+    justify-content: space-between;
+}
+aside ul li{
+    list-style: none;
+}
+button a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #765453;
+    padding: 10px;
+}
+button a:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+footer
+{
+    display: block;
+    width:30%;
+    margin: auto;
+    background-color: #765453;
+    color: whitesmoke;
+    height: 50px;
+}
