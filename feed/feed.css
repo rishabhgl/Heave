@@ -1,3 +1,13 @@
-img {
+article img {
     float: left;
+    margin-right: 20px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article p {
 }
