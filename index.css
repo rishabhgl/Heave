@@ -1,0 +1,47 @@
+
+/* Header Section */
+
+.head{
+    display:flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#765453 ;
+    color: #ffffff98;
+
+}
+
+
+ /* Info Section */
+
+ .container{
+    border : 2 px solid brown;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+
+.container p{
+    display: inline-block;
+    margin : 20px;
+}
+
+.container h3{
+    font-size: 70px;
+    
+}
+
+.problem{
+    padding-bottom: 40px;
+}
+
+
+
+.about_us{
+    background-color:#765453 ;
+    color: #ffffff98;
+    padding-bottom: 40px;
+    padding-top: 1px;
+}
