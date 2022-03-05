@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 65px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Manrope, sans-serif;
+    font-size: large;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #765453;
+    color: white;
+    padding: 0px;
+    font-family: audiowide, sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#active li {
+    background-color: white;
+    color: black;
+}
+
+nav ul li.left {
+    float: left;
+}
+
+nav ul li.right {
+    float: right;
+}
