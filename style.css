@@ -5,7 +5,8 @@
 }
 
 section {
-    margin-top: 65px;
+    margin-top: 65px; /* Margin because of the navigation bar. */
+    padding: 10px;
 }
 body {
     margin: 0;
