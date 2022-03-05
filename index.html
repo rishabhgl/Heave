@@ -13,7 +13,11 @@
         <ul>
             <a href="#" id="active"><li class="left">HOME</li></a>
             <a href="resources/resources.html"><li class="left">RESOURCES</li></a>
-            <a href="index-profile.html"><li class="right">SIGN IN</li></a>
+            <a href="feed/feed.html"><li class="right inactive">FEED</li></a>
+            <a href="music/music.html"><li class="right inactive">MUSIC</li></a>
+            <a href="events/events.html"><li class="right inactive">EVENTS</li></a>
+            <a href="profile/profile.html"><li class="right inactive">PROFILE</li></a>
+            <a href="#"><li class="signin right">SIGNIN</li></a>
         </ul>
     </nav>
     <section id="main_content">
@@ -55,5 +59,17 @@
             </div>
         </div>
     </section>
+    <script>
+        const signinbtn = document.querySelector("li.signin");
+        const inactives = document.querySelectorAll(".inactive");
+        signinbtn.addEventListener("click", showLinks);
+
+        function showLinks() {
+            signinbtn.classList.add("inactive");
+            for (i of inactives) {
+                i.classList.remove("inactive");
+            }
+        }
+    </script>
 </body>
 </html>
