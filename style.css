@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
-section {
-    margin-top: 65px;
+section#main_content {
+    margin-top: 65px; /* Margin because of the navigation bar. */
+    padding: 20px;
+    margin-left: 4em;
+    margin-right: 4em;
+    background-color: #ffffff99;
+    color: #664847;
 }
 body {
     margin: 0;
