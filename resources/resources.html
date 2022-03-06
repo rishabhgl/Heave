@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="resources.css" />
+    <title>Heave</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <a href="..\index.html"><li class="left">HOME</li></a>
+        <a href="#" id="active"><li class="left">RESOURCES</li></a>
+        <a href="../feed/feed.html"><li class="right inactive">FEED</li></a>
+        <a href="../music/music.html"><li class="right inactive">MUSIC</li></a>
+        <a href="../events/events.html"
+          ><li class="right inactive">EVENTS</li></a
+        >
+        <a href="../profile/profile.html"
+          ><li class="right inactive">PROFILE</li></a
+        >
+        <a href="#"><li class="signin right">SIGN IN</li></a>
+      </ul>
+    </nav>
+    <section id="main_content">
+      <header>
+        <h1>Online resources</h1>
+      </header>
+      <div class="container">
+        <div id="helplines">
+          <h2>Seek Help</h2>
+          <h4>Childline Helpline: XX 0800 XXXX</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut
+            odio animi incidunt laudantium earum distinctio iusto ipsum officiis
+            dolorem, sed minus vel consequatur aspernatur! Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Laboriosam eius quisquam
+            explicabo veniam corrupti, unde quo libero iusto saepe, voluptas
+            dicta dolore atque quasi impedit?
+          </p>
+          <h4>Stop Bullying Now Hotline: XX 0900 XXXX</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut
+            odio animi incidunt laudantium earum distinctio iusto ipsum officiis
+            dolorem, sed minus vel consequatur aspernatur! Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Laboriosam eius quisquam
+            explicabo veniam corrupti, unde quo libero iusto saepe, voluptas
+            dicta dolore atque quasi impedit?
+          </p>
+          <div id="web_portal">
+            <a href="#" target="_blank">The Cyber Crime Portal</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quod
+              quaerat sunt numquam doloribus odio eos expedita quos? Eos quos
+              omnis excepturi eum ducimus. Reiciendis aliquid libero cum harum
+              quia adipisci accusantium velit, non repellat, eum accusamus
+              ratione quis debitis autem odit at impedit magnam facilis tenetur
+              animi ipsum mollitia?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="Contribute">
+          <h2>Contribute to a Cause</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+            enim consequatur! Eos tempora repudiandae tempore ipsam eius totam
+            odit animi sint similique earum? Natus odio quae quam,
+            exercitationem nihil totam praesentium corrupti minima cupiditate
+            ipsa ad tenetur possimus necessitatibus fuga soluta magni. Similique
+            illum rerum perferendis. Facere obcaecati vel eius?
+          </p>
+
+          <div id="links">
+            <div class="ngo"><a href="#">NGO 1</a></div>
+            <div class="ngo"><a href="#">NGO 2</a></div>
+            <div class="ngo"><a href="#">Crowdfund 1</a></div>
+            <div class="ngo"><a href="#">Crowdfund 2</a></div>
+            <div class="ngo"><a href="#">Crowdfund 3</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="Blogs">
+          <h2>Learn More About Cyberbullying</h2>
+          <div class="article">
+            <p>
+              Cyberbullying is bullying with the use of digital technologies. It
+              can take place on social media, messaging platforms, gaming
+              platforms and mobile phones. It is repeated behaviour, aimed at
+              scaring, angering or shaming those who are targeted.
+            </p>
+            <a href="#" target="_blank">Read More...</a>
+          </div>
+          <div class="article">
+            <p>
+              Cyberbullying is bullying with the use of digital technologies. It
+              can take place on social media, messaging platforms, gaming
+              platforms and mobile phones. It is repeated behaviour, aimed at
+              scaring, angering or shaming those who are targeted.
+            </p>
+            <a href="#" target="_blank">Read More...</a>
+          </div>
+          <div class="article">
+            <p>
+              When you experience cyberbullying you might start to feel ashamed,
+              nervous, anxious and insecure about what people say or think about
+              you. This can lead to withdrawing from friends and family,
+              negative thoughts and self-talk, feeling guilty about things you
+              did or did not do, or feeling that you are being judged
+              negatively. Feeling lonely, overwhelmed, frequent headaches,
+              nausea or stomachaches are also common.You can lose your
+              motivation to do the things that you usually enjoy doing and feel
+              isolated from the people you love and trust. This can perpetuate
+              negative feelings and thoughts which can adversely affect your
+              mental health and well-being.
+            </p>
+            <a href="#" target="_blank">Read More...</a>
+          </div>
+          <div class="article">
+            <p>
+              Technology companies are increasingly paying attention to the
+              issue of online bullying.Many of them are introducing ways to
+              address it and better protect their users with new tools, guidance
+              and ways to report online abuse.
+            </p>
+            <a href="#" target="_blank">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const signinbtn = document.querySelector("li.signin");
+      const inactives = document.querySelectorAll(".inactive");
+      signinbtn.addEventListener("click", showLinks);
+
+      function showLinks() {
+        signinbtn.classList.add("inactive");
+        for (i of inactives) {
+          i.classList.remove("inactive");
+        }
+      }
+    </script>
+  </body>
+</html>
