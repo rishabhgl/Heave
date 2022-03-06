@@ -72,3 +72,11 @@ nav ul li.left {
 nav ul li.right {
     float: right;
 }
+
+footer {
+    margin: 10px 0 0 0;
+    background-color: #765453;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}

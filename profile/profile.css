@@ -1,0 +1,37 @@
+.inactive {
+    display: none;
+}
+
+section#main_content section {
+    float: right;
+    padding: 20px;
+}
+
+button.addgoal {
+    background-color: #765453;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border-style: solid;
+}
+
+#goaladd {
+    padding: 10px;
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #765453;
+    padding: 0;
+}
+table th {
+    background-color: #765453;
+    color: white;
+    padding: 10px;
+}
+table td {
+    text-align: center;
+    padding: 10px;
+}

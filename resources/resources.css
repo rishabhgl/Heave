@@ -1,12 +1,8 @@
 /* Header */
 header{
-    display: flex;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-    background-color:#765453 ;
-
-
+    padding: 20px;
+    text-align: center;
+    background-color:#765453;
 }
 header h1{
     color: #ffffff98;
