@@ -7,7 +7,7 @@ section#main_content section {
     padding: 20px;
 }
 
-button.addgoal {
+button {
     background-color: #765453;
     color: white;
     padding: 10px;
