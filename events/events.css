@@ -1,20 +1,18 @@
 h2{
     text-align: center;
 }
-.mg1
+img.mg1
 {
     display: block;
-    margin:auto;
     width: 20%;
     height: 150px;
 }
-.mg2
+img.mg2
 {
     display: block;
-    margin: auto;
     width: 20%;
 }
-.p1
+/* .p1
 {
     border: 2px solid burlywood;
 }
@@ -22,28 +20,83 @@ h2{
 {
     display: block;
     justify-content: space-between;
-}
-aside ul li{
-    list-style: none;
-}
-button a
+} */
+p1
 {
-    text-decoration: none;
-    color: whitesmoke;
+    text-align: center;
+}
+p2
+{
+    text-align: center;
+}
+article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
     background-color: #765453;
-    padding: 10px;
+    color: white;
 }
-button a:hover
+
+article div img {
+        float: left;
+        margin-right: 20px;
+}
+
+aside {
+    background-color: #765453;
+    border-radius: 15px;
+    color: white;
+}
+aside ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+aside ul li {
+    display: table-row;
+    padding: 0px;
+}
+
+aside ul li p, aside ul li div {
+    display: table-cell;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+aside ul li div {
+    width: 50%;
+}
+
+aside h4 {
+    text-align: center;
+}
+
+aside ul li p a {
+    text-decoration: none;
+    color: #ded3d3;
+    font-style: bold;
+}
+aside ul li p a:hover
 {
-    background-color: whitesmoke;
     color: black;
+}
+aside ul li img {
+    margin-left: 15%;
 }
 footer
 {
     display: block;
-    width:30%;
-    margin: auto;
+    margin: 10px 0 0 0;
     background-color: #765453;
-    color: whitesmoke;
-    height: 50px;
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
