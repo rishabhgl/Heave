@@ -17,7 +17,7 @@ header h1{
 
 }
 .container div{
-    width : 100vw;
+    width : 100%;
 }
 
 
@@ -26,10 +26,14 @@ header h1{
     background: #765453 ;
     color: #ffffff98;
     padding: 20px;
+    border-radius: 20px;
 }
 
 #web_portal a{
-    color: #765453;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #web_portal a:hover{
@@ -44,7 +48,9 @@ header h1{
 }
 
 .ngo a{
-    color: #ffffff98
+    color: #cc9797;
+    text-decoration: none;
+    font-style: italic;
 }
 .ngo a:hover{
     color: #c4731798;
@@ -60,8 +66,8 @@ header h1{
 }
 
 .article{
-    margin: 20px;
+    margin-top: 30px;
     border: 2px solid #765453;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
 }

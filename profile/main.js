@@ -34,6 +34,7 @@ function addGoal() {
     goal.textContent = input.value;
     checkboxinner.setAttribute("type","checkbox");
     checkboxinner.setAttribute("name",input.value);
+    checkboxinner.classList.add("goal");
 
     checkbox.appendChild(checkboxinner);
     row.appendChild(goal);
